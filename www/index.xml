@@ -44,7 +44,7 @@
   <p> Creates a Climon executable and launch the game :
   <pre>$> make exe
 [...]
-$> /tmp/climon-0.1 "username"</pre>
+$> /tmp/climon-0.1</pre>
   </p>
   <p>
     <ul>Keys :
