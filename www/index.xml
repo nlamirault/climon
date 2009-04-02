@@ -1,4 +1,4 @@
-<page title="climon : A Tetris like game written in Common Lisp.">
+<page title="climon : A Simon game written in Common Lisp.">
   <p>
     Climon is a Simon game, see <a href="http://en.wikipedia.org/wiki/Simon_(game)"> Simon Wikipedia </a>.
     It is developed on <a href="http://www.debian.org"> Debian GNU/Linux </a>, using 
