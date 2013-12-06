@@ -1,6 +1,9 @@
 Climon
 ======
 
+[![Build Status](https://travis-ci.org/nlamirault/climon.png)](https://travis-ci.org/nlamirault/climon)
+
+
 This is the classic [Simon](http://en.wikipedia.org/wiki/Simon_(game)) game in Common Lisp.
 
 ## Required softwares
