@@ -10,22 +10,27 @@ This is the classic [Simon](http://en.wikipedia.org/wiki/Simon_(game)) game in C
 
 You will need :
 
-* [ASDF](http://www.cliki.net/asdf)
-* [PAL](http://common-lisp.net/project/pal)
+* [SBCL](http://www.sbcl.org)
+* [Quicklisp](http://www.quicklisp.org)
+
+and dependencies :
+
+    $ sudo apt-get install libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev
+
 
 ## Installation
 
-In /usr/share/common-lisp/systems, create a symbolic link
-to the system definition file (climon.asd) or
-add the ernestine directory to *central-directory* of ASDF :
-
-    CL-USER> (push "/directory/climon/" asdf:*central-registry*)
-    CL-USER> (asdf:operate 'asdf:load-op 'climon)
+    CL-USER> (ql:quickload "climon")
 
 ## Launch game
 
+In a lisp REPL :
+
     CL-USER> (climon:climon)
 
+or using bash:
+
+    $ ./climon.sh
 
 ## Screenshots
 

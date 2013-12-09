@@ -1,6 +1,13 @@
 Climon ChangeLog
 ================
 
+Version 0.2 (2013-12-09)
+------------------------
+
+- Add tool to launch game from bash
+- Add compatibility with Quicklisp
+- Update documentation
+
 Version 0.1 (2009-04-02)
 ------------------------
 
