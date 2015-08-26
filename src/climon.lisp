@@ -7,7 +7,7 @@
 ;;;; Purpose:       The Simon game.
 ;;;; Programmer:    Nicolas Lamirault <nicolas.lamirault@gmail.com>
 ;;;;
-;;;; This file, part of climon, is Copyright (c) 2007 by Nicolas Lamirault
+;;;; This file, part of climon, is Copyright (c) 2007, 2015 by Nicolas Lamirault
 ;;;;
 ;;;; climon users are granted the rights to distribute and use this software
 ;;;; as governed by the terms of the MIT License :
@@ -25,7 +25,7 @@
       (define-tags simon-base (load-image (concatenate 'string
                                                      *climon-directory*
                                                      +base-color+)
-                                        t)                 
+                                        t)
                    simon-yellow (load-image (concatenate 'string
                                                          *climon-directory*
                                                          +yellow-color+)
@@ -185,7 +185,7 @@ could be :yellow, :blue, :red or :green."
 
 (defun check-area-from-mouse (x y)
   "If the mouse is over a color, update the screen."
-  (let ((color 
+  (let ((color
          (cond ((mouse-in-area-p +red-area+ x y)
                 :red)
                ((mouse-in-area-p +green-area+ x y)
@@ -340,4 +340,3 @@ could be :yellow, :blue, :red or :green."
       (test-keys
         (:key-space  (play-sequence))
         (:key-q  (return-from event-loop))))))
-
