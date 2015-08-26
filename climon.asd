@@ -7,7 +7,7 @@
 ;;;; Purpose:       ASDF definition for Climon
 ;;;; Programmer:    Nicolas Lamirault <nicolas.lamirault@gmail.com>
 ;;;;
-;;;; This file, part of climon, is Copyright (c) 2007 by Nicolas Lamirault
+;;;; This file, part of climon, is Copyright (c) 2007, 2015 by Nicolas Lamirault
 ;;;;
 ;;;; climon users are granted the rights to distribute and use this software
 ;;;; as governed by the terms of the Lisp Lesser GNU Public License
@@ -24,7 +24,7 @@
   :name "climon"
   :author "Nicolas Lamirault <nicolas.lamirault@gmail.com>"
   :maintainer "Nicolas Lamirault <nicolas.lamirault@gmail.com>"
-  :version "0.1"
+  :version "0.3"
   :licence "Lisp Lesser GNU General Public License"
   :description "The Simon game."
   :depends-on (:pal)
@@ -34,4 +34,3 @@
             ((:file "package")
              (:file "specials" :depends-on ("package"))
              (:file "climon" :depends-on ("specials"))))))
-
