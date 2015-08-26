@@ -32,9 +32,38 @@ or using bash:
 
     $ ./climon.sh
 
+## Commands
+
+Available commands :
+
+* space : Start a new game
+* mouse : click to the specific color
+* g : choose GREEN
+* b : choose BLUE
+* y : choose YELLOW
+* r : choose RED
+
+
 ## Screenshots
 
 ![0.1](www/climon-0.1.png)
+
+
+
+## Development
+
+* Install [roswell][] to setup the Common Lisp environment and install your Common Lisp implementation using it.:
+
+        $ make init
+        $ ros install sbcl
+
+* Install dependencies :
+
+        $ make deps
+
+* Launch unit tests :
+
+        $ make test
 
 
 ## Changelog
