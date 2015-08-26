@@ -24,7 +24,7 @@
   :name "climon"
   :author "Nicolas Lamirault <nicolas.lamirault@gmail.com>"
   :maintainer "Nicolas Lamirault <nicolas.lamirault@gmail.com>"
-  :version "0.3"
+  :version "0.4.0"
   :licence "Lisp Lesser GNU General Public License"
   :description "The Simon game."
   :depends-on (:pal)

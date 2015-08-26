@@ -1,5 +1,9 @@
 # Climon ChangeLog
 
+## Version 0.4.0 (08/26/2015)
+
+- Update TravisCI setup
+
 ## Version 0.3.0 (08/26/2015)
 
 - make executable
