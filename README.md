@@ -2,6 +2,7 @@ Climon
 ======
 
 [![License MIT][badge-license]][LICENSE]
+[![GitHub version](https://badge.fury.io/gh/nlamirault%2Fclimon.svg)](https://badge.fury.io/gh/nlamirault%2Fclimon)
 
 Master :
 * [![Circle CI](https://circleci.com/gh/nlamirault/climon/tree/master.svg?style=svg)](https://circleci.com/gh/nlamirault/climon/tree/master)
