@@ -1,5 +1,10 @@
 # Climon ChangeLog
 
+## Version 0.6.0 (10/13/2015)
+
+- Update license
+- Cleanup code
+
 ## Version 0.5.0 (10/13/2015)
 
 - Setup CircleCI setup
