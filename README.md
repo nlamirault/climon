@@ -4,14 +4,10 @@ Climon
 [![License MIT][badge-license]][LICENSE]
 
 Master :
-* [![MELPA Stable](http://stable.melpa.org/packages/gotest-badge.svg)](http://stable.melpa.org/#/gotest)
-* [![Circle CI](https://circleci.com/gh/nlamirault/gotest.el/tree/master.svg?style=svg)](https://circleci.com/gh/nlamirault/gotest.el/tree/master)
+* [![Circle CI](https://circleci.com/gh/nlamirault/climon/tree/master.svg?style=svg)](https://circleci.com/gh/nlamirault/climon/tree/master)
 
 Develop:
-* [![Melpa Status](http://melpa.milkbox.net/packages/gotest-badge.svg)](http://melpa.milkbox.net/#/gotest)
-* [![Circle CI](https://circleci.com/gh/nlamirault/gotest.el/tree/develop.svg?style=svg)](https://circleci.com/gh/nlamirault/gotest.el/tree/develop)
-
-
+* [![Circle CI](https://circleci.com/gh/nlamirault/climon/tree/develop.svg?style=svg)](https://circleci.com/gh/nlamirault/climon/tree/develop)
 
 This is the classic [Simon](http://en.wikipedia.org/wiki/Simon_(game)) game in Common Lisp.
 
@@ -26,20 +22,21 @@ and dependencies :
 
     $ sudo apt-get install libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev
 
-
 ## Installation
 
-    CL-USER> (ql:quickload "climon")
+* Install tools and dependencies :
 
-## Launch game
+        $ make init
+        $ make deps
 
-In a lisp REPL :
+* Make binary :
 
-    CL-USER> (climon:climon)
+        $ make binary
 
-or using bash:
+* Launch game :
 
-    $ ./climon.sh
+        $ roswell/climon
+
 
 ## Commands
 
