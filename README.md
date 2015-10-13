@@ -1,7 +1,16 @@
 Climon
 ======
 
-[![Build Status](http://img.shields.io/travis/nlamirault/climon.svg)](https://travis-ci.org/nlamirault/climon)
+[![License MIT][badge-license]][LICENSE]
+
+Master :
+* [![MELPA Stable](http://stable.melpa.org/packages/gotest-badge.svg)](http://stable.melpa.org/#/gotest)
+* [![Circle CI](https://circleci.com/gh/nlamirault/gotest.el/tree/master.svg?style=svg)](https://circleci.com/gh/nlamirault/gotest.el/tree/master)
+
+Develop:
+* [![Melpa Status](http://melpa.milkbox.net/packages/gotest-badge.svg)](http://melpa.milkbox.net/#/gotest)
+* [![Circle CI](https://circleci.com/gh/nlamirault/gotest.el/tree/develop.svg?style=svg)](https://circleci.com/gh/nlamirault/gotest.el/tree/develop)
+
 
 
 This is the classic [Simon](http://en.wikipedia.org/wiki/Simon_(game)) game in Common Lisp.
@@ -66,11 +75,29 @@ Available commands :
         $ make test
 
 
+## Support / Contribute
+
+See [here](CONTRIBUTING.md)
+
+
+
 ## Changelog
 
 A changelog is available [here](ChangeLog.md).
 
 
+## License
+
+See [LICENSE](LICENSE).
+
+
 ## Contact
 
 Nicolas Lamirault <nicolas.lamirault@gmail.com>
+
+
+[climon]: https://github.com/nlamirault/climon
+[badge-license]: https://img.shields.io/badge/license-MIT-green.svg?style=flat
+[LICENSE]: https://github.com/nlamirault/climon/blob/master/LICENSE
+
+[Issue tracker]: https://github.com/nlamirault/climon/issues

@@ -1,5 +1,9 @@
 # Climon ChangeLog
 
+## Version 0.5.0 (10/13/2015)
+
+- Setup CircleCI setup
+
 ## Version 0.4.0 (08/26/2015)
 
 - Update TravisCI setup
