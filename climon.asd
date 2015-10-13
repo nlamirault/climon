@@ -23,7 +23,7 @@
   :name "climon"
   :author "Nicolas Lamirault <nicolas.lamirault@gmail.com>"
   :maintainer "Nicolas Lamirault <nicolas.lamirault@gmail.com>"
-  :version "0.6.0"
+  :version "0.7.0"
   :licence "MIT License"
   :description "The Simon game."
   :depends-on (:pal)
