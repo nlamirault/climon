@@ -2,18 +2,25 @@ machine:
   services:
     - docker
   environment:
+    LISP: sbcl
     PATH: ${HOME}/.roswell/bin:${PATH}
     ROSWELL_INSTALL_DIR: $HOME
     ROSWELL_BRANCH: master
 
+checkout:
+  pre:
+    - curl -L https://raw.githubusercontent.com/snmsts/roswell/master/scripts/install-for-ci.sh | sh
+
 dependencies:
   pre:
-    - sudo apt-get update
-    - sudo apt-get install libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev
-    - curl -L https://raw.githubusercontent.com/snmsts/roswell/$ROSWELL_BRANCH/scripts/install-for-ci.sh | sh
     - ros -e '(ql:update-all-dists :prompt nil)'
     - ros install qlot
     - ros install prove
+    - sudo apt-get update
+    - sudo apt-get install libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev
+  cache_directories:
+    - ~/.roswell
+
 test:
   override:
     - PATH="${HOME}/.roswell/bin:${PATH}" qlot install :climon
