@@ -1,8 +1,13 @@
 Climon
 ======
 
-[![Build Status](http://img.shields.io/travis/nlamirault/climon.svg)](https://travis-ci.org/nlamirault/climon)
+[![License MIT][badge-license]][LICENSE]
 
+Master :
+* [![Circle CI](https://circleci.com/gh/nlamirault/climon/tree/master.svg?style=svg)](https://circleci.com/gh/nlamirault/climon/tree/master)
+
+Develop:
+* [![Circle CI](https://circleci.com/gh/nlamirault/climon/tree/develop.svg?style=svg)](https://circleci.com/gh/nlamirault/climon/tree/develop)
 
 This is the classic [Simon](http://en.wikipedia.org/wiki/Simon_(game)) game in Common Lisp.
 
@@ -17,20 +22,21 @@ and dependencies :
 
     $ sudo apt-get install libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev
 
-
 ## Installation
 
-    CL-USER> (ql:quickload "climon")
+* Install tools and dependencies :
 
-## Launch game
+        $ make init
+        $ make deps
 
-In a lisp REPL :
+* Make binary :
 
-    CL-USER> (climon:climon)
+        $ make binary
 
-or using bash:
+* Launch game :
 
-    $ ./climon.sh
+        $ roswell/climon
+
 
 ## Commands
 
@@ -66,11 +72,29 @@ Available commands :
         $ make test
 
 
+## Support / Contribute
+
+See [here](CONTRIBUTING.md)
+
+
+
 ## Changelog
 
 A changelog is available [here](ChangeLog.md).
 
 
+## License
+
+See [LICENSE](LICENSE).
+
+
 ## Contact
 
 Nicolas Lamirault <nicolas.lamirault@gmail.com>
+
+
+[climon]: https://github.com/nlamirault/climon
+[badge-license]: https://img.shields.io/badge/license-MIT-green.svg?style=flat
+[LICENSE]: https://github.com/nlamirault/climon/blob/master/LICENSE
+
+[Issue tracker]: https://github.com/nlamirault/climon/issues
