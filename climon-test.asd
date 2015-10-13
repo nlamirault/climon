@@ -4,7 +4,7 @@
 ;;;;
 ;;;; This file, part of climc, is Copyright (c) 2013, 2015 by Nicolas Lamirault
 ;;;;
-;;;; climc users are granted the rights to distribute and use this software
+;;;; climon users are granted the rights to distribute and use this software
 ;;;; as governed by the terms of the MIT License :
 ;;;; http://www.opensource.org/licenses/mit-license.php
 ;;;;
